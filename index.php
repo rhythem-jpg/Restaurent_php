@@ -9,6 +9,11 @@ if (!isset($_SESSION['id']) && !isset($_SESSION['user_name'])) {
 <head>
 	<title>LOGIN</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<style>
+		body{
+		background-image: url('anime-series-about-food.webp');
+		}
+	</style>
 </head>
 <body>
      <form action="login.php" method="post">

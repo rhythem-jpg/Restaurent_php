@@ -21,3 +21,9 @@ CREATE TABLE orders(
     user_id INT NOT NULL,
     total INT NOT NULL
 );
+CREATE TABLE users(
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    user_name VARCHAR(200) NOT NULL,
+    password VARCHAR(200) NOT NULL,
+    name VARCHAR(200) NOT NULL
+);

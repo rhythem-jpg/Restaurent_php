@@ -39,10 +39,11 @@ if (isset($_POST['table_no']) && isset($_POST['no_people'])
 	}
 
 	else{
+		$num = rand(1,100);
     if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
         $user_id = $_SESSION["id"];
         $username = $_SESSION["user_name"];
-        $sql = "INSERT INTO reservations VALUES($user_id,$table_no,$user_id, $no_people, '$date', '$username', '$phone')"; 
+        $sql = "INSERT INTO reservations VALUES($num,$table_no,$user_id, $no_people, '$date', '$username', '$phone')"; 
         $result = mysqli_query($conn, $sql);
         if ($result) {
            	 header("Location: reservation.php?success=Reservation was sucessful");

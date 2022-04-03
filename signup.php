@@ -3,6 +3,14 @@
 <head>
 	<title>SIGN UP</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+     	<style>
+		body{
+		background-image: url('moyashimon-anime.webp');
+   background-repeat:no-repeat;
+
+   background-size:cover;
+		}
+	</style>
 </head>
 <body>
      <form action="signup-check.php" method="post">
