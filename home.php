@@ -86,6 +86,7 @@ p {
 <nav>
   <a href="./reservation.php" class="nav-link">Reservations</a>
   <a href="./menu.php" class="nav-link">Menu</a>
+  <a href="./logout.php" class="nav-link">Logout</a>
   <a href="./show_orders.php" class="nav-link">Order</a>
 </nav>
 
